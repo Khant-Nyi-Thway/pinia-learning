@@ -24,5 +24,7 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
-### this was added by yms to solve eslint error, eg. it doesn't accept defineProps if we don't add this line in package.json
-### "vue/setup-compiler-macros": true
+### if eslint error occurs, for example when eslint doesn't accept "defineProps", we have to add this line in package.json within env Object
+```
+"vue/setup-compiler-macros": true
+```
